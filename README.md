@@ -11,5 +11,3 @@ Este é um projeto pessoal desenvolvido a partir de uma adaptação do projeto "
 - **Layout dividido em seções** que apresentam as principais funcionalidades e vantagens do serviço **Espaço Criativo** de forma clara e atrativa.
 - **Links e botões** estilizados para otimizar a experiência de navegação e interação.
 
-### 📚 Sobre o Curso
-O projeto inicial foi desenvolvido durante o curso **HTML e CSS: Praticando HTML/CSS** da Alura. Este curso incentiva a aplicação prática de conceitos de HTML e CSS, permitindo que os alunos criem projetos reais e funcionais como parte do processo de aprendizagem.
