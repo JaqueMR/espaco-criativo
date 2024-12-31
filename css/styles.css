@@ -162,3 +162,104 @@ body {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
 }
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        padding: 1em;
+    }
+
+    .container__caixa {
+        margin: 0;
+        width: 100%;
+        padding: 1em;
+    }
+
+    .container__titulo {
+        font-size: 24px;
+    }
+
+    .descricao__titulo {
+        font-size: 32px;
+    }
+
+    .descricao__texto {
+        font-size: 14px;
+    }
+
+    .container__botao {
+        font-size: 14px;
+        padding: 0.8em;
+        margin: 1em 0;
+    }
+
+    .container__imagem,
+    .secundario__imagem {
+        width: 100%;
+        height: auto;
+        margin: 1em 0;
+    }
+
+    .secundario {
+        margin: 0;
+        width: 100%;
+        padding: 1em;
+    }
+
+    .dispositivos__lista {
+        flex-direction: column;
+        gap: 1em;
+        margin: 2em 0;
+    }
+
+    .lista__item {
+        font-size: 18px;
+    }
+
+    .rodape {
+        margin: 2em 1em;
+    }
+
+    .rodape__lista {
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .rodape__texto {
+        font-size: 12px;
+    }
+
+    
+    .secundario__imagem {
+        order: -1;
+        
+    }
+}
+
+@media (max-width: 480px) {
+    .container__titulo {
+        font-size: 20px;
+    }
+
+    .descricao__titulo {
+        font-size: 24px;
+    }
+
+    .descricao__texto {
+        font-size: 12px;
+    }
+
+    .container__botao {
+        font-size: 12px;
+        padding: 0.6em;
+    }
+
+    .lista__item {
+        font-size: 16px;
+    }
+}
